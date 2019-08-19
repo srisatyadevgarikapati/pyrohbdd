@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	return 'Hey, we asdasdhave Flask in minishift!'
+	return 'Hey, we sdfsf Flask in minishift!'
 
 @app.route('/hi')
 def hi():
