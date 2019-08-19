@@ -5,6 +5,8 @@ app = Flask(__name__)
 def hello_world():
 	return 'Hey, we have Flask in minishift!'
 
+
+
 @app.route('/hi')
 def hi():
 	return 'Hey, we have Flask in aHI!'
