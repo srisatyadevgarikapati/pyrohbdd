@@ -9,6 +9,10 @@ def hello_world():
 def hi():
 	return 'Hey, we have Flaaasask sdfin aHI!'
 
+@app.route('/new')
+def new():
+	return 'Hey, you are in new route'
+
 
 
 if __name__ == '__main__':
