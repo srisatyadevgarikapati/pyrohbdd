@@ -3,7 +3,7 @@ import unittest
 
 class TestHello(unittest.TestCase):
         def setUp(self):
-                self.assertEqual("Softlayer","Softlayer")
+                self.assertEqual("Softlayer","sdsdd")
         def testPrintsTrue(self):
                 self.assertTrue(True)
                 
