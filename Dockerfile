@@ -9,7 +9,7 @@ RUN pip install pytest-docker
 
 WORKDIR /app
 COPY . /app
-
+RUN ls
 RUN pip install flask
 
 
