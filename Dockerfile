@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 RUN pip install flask
-
+RUN pip install pytest
 
 
 EXPOSE 5000 
