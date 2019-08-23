@@ -1,6 +1,6 @@
 import unittest
-
-def test_func_fast():
-    fail
+class TestHello(unittest.TestCase):
+        def setUp(self):
+                self.assertEqual("h","hasas")
 if __name__ == '__main__':
     unittest.main()
