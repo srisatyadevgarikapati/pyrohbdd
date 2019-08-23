@@ -1,4 +1,4 @@
-import pytest
+import unittest
 
 def test_func_fast():
     pass
